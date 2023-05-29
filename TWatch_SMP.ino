@@ -265,6 +265,8 @@ void goToSleep()
     esp_deep_sleep_start();
 }
 
+
+//BROKEN
 void getWifiTime() {
   uint32_t crtTime;
   uint32_t startTime = millis();
@@ -318,7 +320,7 @@ void loop()
             appPedometer();
             break;
         case 2:
-            getWifiTime();
+            //getWifiTime();
             break;
         case 3:
             goToSleep();
